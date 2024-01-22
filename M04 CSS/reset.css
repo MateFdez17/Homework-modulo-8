@@ -1,0 +1,67 @@
+/* reset-chrome.css */
+
+/* Reset de estilos específicos de Google Chrome */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elimina la apariencia de lista en elementos UL y OL */
+  ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elimina la apariencia de la etiqueta 'details' en Chrome */
+  details {
+    display: block;
+  }
+  
+  /* Ajusta el margen de la etiqueta 'summary' en Chrome */
+  summary {
+    display: list-item;
+    cursor: pointer;
+  }
+  
+  /* Elimina la apariencia de la etiqueta 'input' de tipo 'search' en Chrome */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-clear-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+  }
+  
+  /* Elimina los estilos predeterminados en los campos de formulario en Chrome */
+  input, textarea, select, button {
+    appearance: none;
+  }
+  
+  /* Elimina el estilo de resaltado de selección en Chrome */
+  ::selection {
+    background-color: transparent;
+  }
+  
+  /* Elimina los bordes en los elementos 'input' y 'textarea' en Chrome */
+  input, textarea {
+    border: none;
+  }
+  
+  /* Elimina la apariencia del cursor de selección de texto en Chrome */
+  input[type="text"], textarea {
+    cursor: auto;
+  }
+  
+  /* Elimina los estilos predeterminados de los elementos de lista en Chrome */
+  dl, menu, ol, ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Restablece el estilo de la etiqueta 'summary' en Chrome */
+  summary {
+    display: list-item;
+    outline: none;
+  }
+  
