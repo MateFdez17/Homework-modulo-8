@@ -5,9 +5,9 @@ function esPositivo(num) {
   // Si el número es negativo ---> "Es negativo".
   // Si el número es 0, devuelve false.
   // Tu código:
-  var numero = num;
-  var positivo = "Es positivo";
-  var negativo = "Es negativo";
+  let numero = num;
+  let positivo = "Es positivo";
+  let negativo = "Es negativo";
   if(numero > 0) {
     return positivo;
   } else if(numero < 0) {
@@ -16,5 +16,7 @@ function esPositivo(num) {
     return false;
   }
 }
+//Cree dos variables para los textos que el ejercicio quiere que retorne y la variable de num,
+//luego utilice un "if" para retornar los textos segun el tipo de numero y en caso contrario false.
 
 module.exports = esPositivo;

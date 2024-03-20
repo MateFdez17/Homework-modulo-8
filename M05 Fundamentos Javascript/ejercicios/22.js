@@ -4,5 +4,5 @@ function resta(x, y) {
   // Tu código:
   return x - y;
 }
-
+//retorne el resultado de la resta de las dos variables
 module.exports = resta;

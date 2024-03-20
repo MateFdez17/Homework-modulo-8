@@ -4,5 +4,5 @@ function devolverString(string) {
   // Tu código:
   return string;
 }
-
+//Solo retorne el string
 module.exports = devolverString;

@@ -6,4 +6,6 @@ function elevarAlCubo(num) {
   return Math.pow(num, 3);
 }
 
+//Utilice el metodo "Math.pow" para elevar el num al cubo, a la potencia de 3.
+//El método Math.pow() en JavaScript se utiliza para calcular la potencia de un número base elevado a un exponente.
 module.exports = elevarAlCubo;

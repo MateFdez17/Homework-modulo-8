@@ -4,5 +4,5 @@ function divide(x, y) {
   // Tu código:
 return x / y;
 }
-
+//retorne el resultado de la division de las dos variables
 module.exports = divide;

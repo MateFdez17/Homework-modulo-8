@@ -5,4 +5,5 @@ function deEuroAdolar(euro) {
   return euro * 1.20;
 }
 
+//Multiplique los euros por el valor del dolar para hacer la conversion
 module.exports = deEuroAdolar;

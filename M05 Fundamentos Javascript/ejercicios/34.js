@@ -6,4 +6,6 @@ function elevarAlCuadrado(num) {
   return Math.pow(num, 2);
 }
 
+//Utilice el metodo "Math.pow" para elevar el num al cuadrado, a la potencia de 2.
+//El método Math.pow() en JavaScript se utiliza para calcular la potencia de un número base elevado a un exponente.
 module.exports = elevarAlCuadrado;

@@ -4,4 +4,5 @@ function areaDelTriangulo(base, altura) {
   return base * altura / 2;
 }
 
+//Multiplique la base por la altura y la dividi por 2 para obtener el area del triangulo
 module.exports = areaDelTriangulo;

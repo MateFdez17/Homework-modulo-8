@@ -5,5 +5,5 @@ function sonIguales(x, y) {
   // Tu código:
   return x === y;
 }
-
+//La funcion retorna "true" si "x" e "y" son iguales.
 module.exports = sonIguales;

@@ -4,5 +4,5 @@ function obtenerResto(x, y) {
   // Tu código:
   return x % y;
 }
-
+//retorne el resultado del resto de la division entre las dos variables
 module.exports = obtenerResto;

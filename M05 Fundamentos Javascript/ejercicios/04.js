@@ -1,6 +1,7 @@
 // Resuelve el siguiente problema matemático.
 // Reemplaza el valor de null por el correspondiente.
 
-var nuevaResta = 10 - 7 === 3;
+let nuevaResta = 10 - 7 === 3;
 
+//La variable contiene 
 module.exports = nuevaResta;
