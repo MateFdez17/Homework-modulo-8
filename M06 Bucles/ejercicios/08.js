@@ -11,6 +11,6 @@ function esPositivoOInferiorA10(a) {
 } 
 //El test esta mal y el ejercicio estan mal planteados
 
-
+//Estoy usando un if con un && para retornar "true" si el numero "a" es positivo o menor a 10
 
 module.exports = esPositivoOInferiorA10;

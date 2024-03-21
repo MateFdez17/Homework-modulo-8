@@ -14,4 +14,5 @@ function conection(status) {
   }
 }
 
+//Estoy usando un if para retornar un texto segun la condicion que cumple el "status".
 module.exports = conection;

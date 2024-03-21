@@ -5,4 +5,5 @@ function esVerdaderoYFalso(booleano1, booleano2) {
   return booleano1 && booleano2;
 }
 
+//Estoy usando un "&&" para ver si los dos son verdaderos.
 module.exports = esVerdaderoYFalso;

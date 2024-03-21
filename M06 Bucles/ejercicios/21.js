@@ -12,6 +12,7 @@ function esPotenciaDeDos(numero) {
   }
   return numero === 1;
 }
-
+console.log(esPotenciaDeDos(8))
+//Utilice un "if" con un bucle while para que me retorne "true" si "numero" es potencia de 2.
 
 module.exports = esPotenciaDeDos;

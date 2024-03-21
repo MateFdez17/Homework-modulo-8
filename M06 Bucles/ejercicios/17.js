@@ -22,5 +22,6 @@ function colors(color) {
   }
  
 }
-
+//Estoy usando un "switch" para retornar un texto segun el color, caso contrario
+//retorna un texto.
 module.exports = colors;

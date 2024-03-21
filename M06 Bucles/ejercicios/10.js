@@ -8,5 +8,6 @@ function esDiezOCinco(num) {
     return false;
   }
 }
-
+ //Estoy usando un if con un "Or" para ver si num es 10 o 5, em uno u otro de estos 
+ //dos casos retorna "true", caso contrario "false"
 module.exports = esDiezOCinco;

@@ -11,4 +11,6 @@ function mayoriaDeEdad(edad) {
   }
 }
 
+//Estoy usando un if para retornar que esta permitido el ingreso en caso de ser mayor a 18
+//y que no esta permitido en caso de ser menor a 18
 module.exports = mayoriaDeEdad;

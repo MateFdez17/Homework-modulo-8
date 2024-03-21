@@ -25,4 +25,6 @@ function obtenerDiaSemana(numero) {
   }
 }
 
+//Estoy usando un if para retornar un dia de la semana segun el numero que tenga el valor "numero",
+//caso contrario que este numero no sea de 1 a 7 retorna un texto.
 module.exports = obtenerDiaSemana;

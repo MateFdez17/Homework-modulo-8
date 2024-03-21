@@ -9,5 +9,6 @@ function esVerdadero(valor) {
   }
 }
 console.log(esVerdadero(true));
-
+//Estoy usando un if para retornar el texto "Soy verdadero" en caso de que valor sea igual a "true" 
+//y en caso contrario "Soy falso"
 module.exports = esVerdadero;

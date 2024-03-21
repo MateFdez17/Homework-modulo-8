@@ -9,4 +9,6 @@ function estaEnRango(num) {
   }
 }
 
+//Estoy usando un if con un "&&" para retornar true en caso de que num sea menor que 50 y mayor que 20.
+
 module.exports = estaEnRango;

@@ -65,4 +65,5 @@ while(mes > 0 && mes < 12)
 //En ninguno de los tres casos se necesita un do-while.
 console.log(diasEnMes(12))
 
+//Utilice un switch para retornar los dias que tiene el mes segun el numero de mes. Esto es en el caso que el año no sea bisiesto.
 module.exports = diasEnMes;

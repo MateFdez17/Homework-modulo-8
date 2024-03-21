@@ -8,5 +8,6 @@ function tieneTresDigitos(num) {
     return false;
   }
 }
-
+//Estoy usando un if con un "&&" para encerrar las caracteristicas de todos los numeros de tres digitos, 
+//para en este caso retornar "true", y para qe en caso contrario retornar "false"
 module.exports = tieneTresDigitos;

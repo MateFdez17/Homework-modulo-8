@@ -15,4 +15,6 @@ function fizzBuzz(num) {
   }
 }
 
+//Estoy usando un if con un "&&" y otros "if" normales para retornar un texto segun la condicion, 
+//si el num es divisible por uno u otro numero, o por los dos a la vez.
 module.exports = fizzBuzz;

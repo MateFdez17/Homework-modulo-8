@@ -12,4 +12,6 @@ function esEntero(num) {
   }
 }
 
+//Estoy usando un if con el metodo "Number.isInteger()" para retornar "true" en caso 
+//de que num sea un numero entero 
 module.exports = esEntero;

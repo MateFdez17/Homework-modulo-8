@@ -15,4 +15,8 @@ return suma;
 }
 //La letra y los tests no coinciden. Tuve que corregir el test una vez más.
 
+//Primero cree una variable "suma" con el valor de "0",
+//luego utilice bucle "for" para volver la suma de los numeros desde 1 hasta el numero "n",
+//pero en caso de que la suma supere el numero 100 el bucle se corta automaticamente con un "break"
+
 module.exports = sumarHastaNConBreak;

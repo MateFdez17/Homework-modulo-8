@@ -6,4 +6,5 @@ function esIgualYNegativo(a, b) {
   return a === b && a < 0;
 }
 
+//Estoy usando un "&&" para ver si cumple las dos condiciones(Igual y negativo)
 module.exports = esIgualYNegativo;

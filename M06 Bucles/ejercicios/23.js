@@ -13,5 +13,8 @@ function doWhile(num) {
    return num;
 }
 
+//Cree una variable para suma con el valor de "0", en la parte de "do" le di un "5" a la suma, 
+//y en la parte de "while" puse un limte a la suma de hasta 8 veces
+//dado esto retorne el valor final de num
 
 module.exports = doWhile;

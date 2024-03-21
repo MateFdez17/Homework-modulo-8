@@ -10,5 +10,6 @@ function esParYDivisiblePorTres(a) {
   }
   
 }
-
+//Estoy usando un if con un && para retornar "true" en caso de que el numero "a" sea divisible por 3 y par a la vez,
+//"a % 3 === 0" significa que es divisible por 3, y "a % 2 === 0" significa que es par, ya que si es divisible por 2 es par.
 module.exports = esParYDivisiblePorTres;

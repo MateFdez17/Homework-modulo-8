@@ -10,4 +10,5 @@ function obtenerMayor(x, y) {
   }
 }
 
+//Estoy usando un if para retornar "x" o "y" en casa de que uno sea mayor al otro
 module.exports = obtenerMayor;

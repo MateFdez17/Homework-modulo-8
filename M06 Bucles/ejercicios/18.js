@@ -2,7 +2,7 @@ function productoEntreNúmeros(a, b) {
   // Dados dos argumentos "a" y "b", devuelve el producto de todos
   // los números entre a y b(inclusive).
   // Tu código:
-  var producto = 1;
+  let producto = 1;
   if(a === b) {
     return a;
   } else {
@@ -13,5 +13,8 @@ function productoEntreNúmeros(a, b) {
    return producto;
   }
 }
-productoEntreNúmeros(2, 4);
+
+//Cree una variable para producto con valor "1", para luego crear un "if" en el cual voy a crear un bucle "for" para 
+//poder identificar el producto de todos los numeros entre "a" y "b" y retornarlo.
+
 module.exports = productoEntreNúmeros;

@@ -19,4 +19,6 @@ function operadoresLogicos(num1, num2, num3) {
   }
 }
 
+//Estoy usando n if con los "&&" y los "Or" para retornar un texto segun las condiciones que pide el ejercicio
+//En uno de los casos utilice un bucle "while" para sumarle 1 a num3 en caso de cumplir cierta condicion. 
 module.exports = operadoresLogicos;

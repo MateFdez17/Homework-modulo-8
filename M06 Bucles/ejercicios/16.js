@@ -16,4 +16,6 @@ function saludo(idioma) {
   }
 }
 
+//Estoy usando un if para retornar un saludo segun el idioma que cumpla la condicion "idioma", 
+//caso contrario retorna el text en español.
 module.exports = saludo;
