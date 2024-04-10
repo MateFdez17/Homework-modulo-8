@@ -5,6 +5,24 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
-}
+    let arreglo = [];
+    let suma = num;
+  
+    for (let i = 0; i < 10; i++) {
+      if (i === 5) {
+        continue; // Alcanzado el límite, se pasa a la siguiente iteración sin sumar
+      }
+      suma += 2;
+      arreglo.push(suma);
+    }
+  
+    return arreglo;
+  }
+
+  //Empece creando un array para almacenar el nuevo valor de cada iteracion y una variable para la suma que dara este valor anterior,
+//luego en un if para usar el continue en caso de que la iteracion este en el valor 5 y luego seguir normalmente 
+//con la funcion.
+  
+
 
 module.exports = continueStatement;

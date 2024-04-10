@@ -3,7 +3,7 @@
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y retórnalo.
   // Tu código:
-  return Math.random()
+  return Math.random(num);
 }
 //Esta mal planteado.
 //Utilice el metodo "Math.random", para generar un numero caulquiera entre 0 y 1, ya que el test pide eso y el ejercicio esta mal planteado.

@@ -2,9 +2,7 @@ const obtenerPrimerStringLargo = require("../ejercicios/05.js");
 
 describe("obtenerPrimerStringLargo", () => {
   it("should return the first string with more than 5 characters", () => {
-    expect(
-      obtenerPrimerStringLargo(["hello", "world", "this", "is", "a", "test"])
-    ).toBe("hello");
+    expect(obtenerPrimerStringLargo(["hello", "world", "this", "is", "a", "test"])).toBe("hello");
     expect(
       obtenerPrimerStringLargo([
         "this",
@@ -28,3 +26,4 @@ describe("obtenerPrimerStringLargo", () => {
     ).toBeUndefined();
   });
 });
+console.log(obtenerPrimerStringLargo(["hello", "world", "this", "is", "a", "test"]));

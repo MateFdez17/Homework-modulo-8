@@ -3,7 +3,7 @@
 function numeroRandom(num) {
   // Genera un número al azar entre 0 y 1 y retórnalo.
   // Tu código:
-  return Math.round(num)
+  return Math.round(num);
 }
 //Está mal planteado.
 //Utilice el metodo "Math.round", para redondear al entero mas cercano ya que eso pide el test y el ejercicio esta mal planteado.
